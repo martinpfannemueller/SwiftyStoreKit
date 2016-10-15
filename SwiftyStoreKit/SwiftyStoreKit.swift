@@ -24,7 +24,7 @@
 
 import StoreKit
 
-public class SwiftyStoreKit {
+@objc public class SwiftyStoreKit : NSObject {
 
     // MARK: Private declarations
     private class InAppPurchaseStore {
